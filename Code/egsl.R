@@ -121,7 +121,7 @@ appGrid <- raster(ext = extGrid,
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Export
 save(egslSimple, file = './data/egslSimple.RData')
-save(egslGrid, file = './data/egslGrid.RData')
+save(egslGrid, file = './data/HexaGrid-1000m2.RData')
 save(egslCoast, file = './data/egslCoast.RData')
-save(rasterGrid, file = './data/rasterGrid.RData')
-save(appGrid, file = './data/appGrid.RData')
+save(rasterGrid, file = './data/RasterGrid-1000m2.RData')
+save(appGrid, file = './data/RasterGrid-1500m2.RData')
